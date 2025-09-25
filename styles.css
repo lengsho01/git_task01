@@ -29,7 +29,7 @@ a{
 .hero{
     width: 100%;
     height: 400px;
-    background-color: rgb(69, 69, 138);
+    background-color:transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,6 +38,23 @@ a{
 .hero >.pro-boxes{
     width: 100%;
     height: 300px;
-    display:grid;
-    grid-template-rows: 1fr;
+    background-color: rgb(173, 173, 207);
+    display: flex;
+    margin: 20px;
+
+}
+.hero >.pro-boxes >.boxes{
+    margin: 2px;
+    padding: 50px;
+    display: grid;
+}
+.hero >.pro-boxes >.boxes img{
+    width: 100%;
+    height: 70px;
+    border-radius: 100%;
+}
+.footer{
+    text-align: center;
+    color: rgb(2, 2, 2);
+    text-decoration: solid;
 }
