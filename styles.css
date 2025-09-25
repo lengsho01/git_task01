@@ -6,9 +6,9 @@ body{
 .header{
     margin: 0;
 
-    background-color: rgb(27, 27, 104);
+    background-color: rgb(95, 68, 16);
     width: 100%;
-    height: 250px;
+    height: 150px;
     display: flex;
     justify-content: space-around;
 
@@ -28,33 +28,54 @@ a{
 }      
 .hero{
     width: 100%;
-    height: 400px;
-    background-color:transparent;
+    height: 600px;
+    background-image:url(images/istockphoto-644430324-1024x1024.jpg);
+    background-position: center;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }        
-.hero >.pro-boxes{
+.pro-boxes{
     width: 100%;
     height: 300px;
-    background-color: rgb(173, 173, 207);
     display: flex;
-    margin: 20px;
+    border-bottom: solid 9px transparent;
+    border-radius: 15px;
 
 }
-.hero >.pro-boxes >.boxes{
-    margin: 2px;
-    padding: 50px;
-    display: grid;
-}
-.hero >.pro-boxes >.boxes img{
+.box{
     width: 100%;
-    height: 70px;
-    border-radius: 100%;
+    margin: 20px;
+    padding: 50px;
+    background-color: rgb(236, 223, 148);
+    
+}
+.pro-boxes :hover{
+   
+    border-bottom: solid 9px;
+    border-radius: 15px;
+
+}
+.hero >.pro-boxes >.box >.boxes-img img{
+    width: 70px;
+    height: 50px;
+}
+.hero >.pro-boxes >.box >.boxes-img{
+
+
 }
 .footer{
-    text-align: center;
+    background-color: rgb(95, 68, 16);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgb(2, 2, 2);
     text-decoration: solid;
+   
 }
